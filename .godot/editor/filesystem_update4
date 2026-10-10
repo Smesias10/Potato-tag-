@@ -1,0 +1,12 @@
+res://ui/MainMenu.gdshader
+res://README.md
+res://scenes/main/Main.tscn
+res://scenes/Main/Main.tscn
+res://scenes/Main/GameManager.gd
+res://scenes/main/GameManager.gd
+res://scenes/player/player.tscn
+res://scripts/weapons/Arma.gd
+res://scripts/weapons/EspadaSimple.gd
+res://scripts/Player.gd
+res://scripts/weapons/HealingHallway.gd
+res://scripts/weapons/MythicSword.gd
