@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dc5qj3l2mla10"]
+
+[ext_resource type="Script" uid="uid://cgi4xkuk5uv4q" path="res://scripts/WaveManager.gd" id="1_vplxy"]
+[ext_resource type="PackedScene" uid="uid://b54gy6dst7v3j" path="res://scenes/enemies/enemy.tscn" id="2_3730o"]
+
+[node name="Room" type="Node2D" unique_id=660433903]
+
+[node name="Ground(Node2D)" type="Node2D" parent="." unique_id=357046783]
+
+[node name="WaveManager(Node)" type="Node" parent="Ground(Node2D)" unique_id=1780559893]
+script = ExtResource("1_vplxy")
+enemy_scene = ExtResource("2_3730o")
+wave_sizes = Array[int]([2, 1])
+
+[node name="SpawnPoints(Node2D)" type="Node2D" parent="." unique_id=451774018]
+
+[node name="Marker2D" type="Marker2D" parent="SpawnPoints(Node2D)" unique_id=1966401870]
+position = Vector2(100, 80)
+
+[node name="Marker2D2" type="Marker2D" parent="SpawnPoints(Node2D)" unique_id=833339775]
+position = Vector2(540, 80)
+
+[node name="Marker2D3" type="Marker2D" parent="SpawnPoints(Node2D)" unique_id=1144897506]
+position = Vector2(320, 280)
+
+[node name="Enemies(Node2D)" type="Node2D" parent="." unique_id=1080006759]
+position = Vector2(3, 4)

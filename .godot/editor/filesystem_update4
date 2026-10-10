@@ -1,0 +1,16 @@
+res://player.gd
+res://README.md
+res://player.tscn
+res://enemy.gd
+res://scenes/rooms/Room.tscn
+res://scripts/WaveManager.gd
+res://enemy.tscn
+res://scenes/enemies/enemy.tscn
+res://scenes/rooms/Room3.tscn
+res://scenes/Main.tscn
+res://Main.tscn
+res://scenes/rooms/Room1.tscn
+res://scenes/rooms/Room2.tscn
+res://scripts/game_manager.gd
+res://scripts/GameManager.gd
+res://scenes/main/Main.tscn

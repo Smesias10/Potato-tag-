@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b54gy6dst7v3j"]
+
+[ext_resource type="Script" uid="uid://cdbb3kd7ranql" path="res://scripts/enemy.gd" id="1_6xk8f"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_h4t55"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8w0r3"]
+
+[node name="Enemy" type="CharacterBody2D" unique_id=276188441]
+script = ExtResource("1_6xk8f")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=83248103]
+texture = SubResource("ImageTexture_h4t55")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=166650237]
+shape = SubResource("CircleShape2D_8w0r3")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1545714968]
+position_smoothing_enabled = true
