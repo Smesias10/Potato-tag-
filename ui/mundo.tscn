@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://ino4o6ohv1tc"]
 
-[ext_resource type="Script" uid="uid://dxmm1lr8mmfkx" path="res://mundo.gd" id="1_n1qf8"]
+[ext_resource type="Script" uid="uid://bafvucrr0saoo" path="res://ui/mundo.gd" id="1_55uo5"]
 [ext_resource type="Texture2D" uid="uid://b363y3yjw3vth" path="res://icon.svg" id="2_55uo5"]
 [ext_resource type="PackedScene" uid="uid://bvhjfiqynyei2" path="res://ui/HUD.tscn" id="3_egsm3"]
+[ext_resource type="PackedScene" uid="uid://deqrkcaav3bci" path="res://ui/asmodeus.tscn" id="4_55uo5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_54f26"]
 texture = ExtResource("2_55uo5")
@@ -77,7 +78,7 @@ tile_size = Vector2i(128, 128)
 sources/0 = SubResource("TileSetAtlasSource_54f26")
 
 [node name="Mundo" type="Node2D" unique_id=1965909417]
-script = ExtResource("1_n1qf8")
+script = ExtResource("1_55uo5")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=812167543]
 tile_set = SubResource("TileSet_qlcm3")
@@ -88,3 +89,6 @@ offset_left = 504.0
 offset_top = 255.0
 offset_right = 504.0
 offset_bottom = 255.0
+
+[node name="Asmodeus" parent="." unique_id=1225465937 instance=ExtResource("4_55uo5")]
+position = Vector2(23, 28)
