@@ -1,0 +1,56 @@
+extends CharacterBody2D
+class_name SkeletonEnemy
+
+var health: int = 100
+const DAMAGE: int = 100
+const ATTACK_RANGE: float = 40.0 # Distancia en píxeles
+const MOVE_SPEED: float = 100.0
+
+var player: Node2D = null
+var phase_manager: Node = null
+
+func _ready():
+    # En Godot es mejor buscar por Grupos
+    var players = get_tree().get_nodes_in_group("player")
+    if players.size() > 0:
+        player = players[0]
+        
+    var managers = get_tree().get_nodes_in_group("phase3_manager")
+    if managers.size() > 0:
+        phase_manager = managers[0]
+
+func _process(delta: float):
+    if health <= 0 or player == null:
+        return
+
+    var distance = global_position.distance_to(player.global_position)
+
+    if distance <= ATTACK_RANGE:
+        attack()
+    else:
+        chase_player()
+
+func chase_player():
+    # Calcula la dirección hacia el jugador y mueve el CharacterBody2D
+    var direction = (player.global_position - global_position).normalized()
+    velocity = direction * MOVE_SPEED
+    move_and_slide() # Maneja colisiones automáticamente en Godot 4
+
+func attack():
+    print("Esqueleto ataca e inflige ", DAMAGE, " de daño.")
+    if player.has_method("take_damage"):
+        player.take_damage(DAMAGE)
+
+func take_damage(amount: int):
+    health -= amount
+    print("Esqueleto recibe ", amount, " de daño. Vida: ", health)
+    
+    if health <= 0:
+        die()
+
+func die():
+    print("Esqueleto destruido.")
+    if phase_manager and phase_manager.has_method("report_skeleton_death"):
+        phase_manager.report_skeleton_death()
+    
+    queue_free() # Destruye el nodo de forma segura al final del frame
