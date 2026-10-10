@@ -22,4 +22,4 @@ position = Vector2(567, 292.5)
 shape = SubResource("RectangleShape2D_qlcm3")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=29005386]
-position = Vector2(564, 298)
+position = Vector2(566, 296)

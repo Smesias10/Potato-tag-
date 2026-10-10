@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b363y3yjw3vth" path="res://icon.svg" id="2_55uo5"]
 [ext_resource type="PackedScene" uid="uid://bvhjfiqynyei2" path="res://ui/HUD.tscn" id="3_egsm3"]
 [ext_resource type="PackedScene" uid="uid://deqrkcaav3bci" path="res://ui/asmodeus.tscn" id="4_55uo5"]
+[ext_resource type="Script" uid="uid://dpaoxajps0bhh" path="res://ui/collision_shape_2d.gd" id="5_egsm3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_54f26"]
 texture = ExtResource("2_55uo5")
@@ -77,6 +78,9 @@ texture_region_size = Vector2i(128, 128)
 tile_size = Vector2i(128, 128)
 sources/0 = SubResource("TileSetAtlasSource_54f26")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qlcm3"]
+size = Vector2(145, 133)
+
 [node name="Mundo" type="Node2D" unique_id=1965909417]
 script = ExtResource("1_55uo5")
 
@@ -92,3 +96,11 @@ offset_bottom = 255.0
 
 [node name="Asmodeus" parent="." unique_id=1225465937 instance=ExtResource("4_55uo5")]
 position = Vector2(23, 28)
+
+[node name="AreaAtaque" type="Area2D" parent="Asmodeus" unique_id=649222301]
+position = Vector2(566, 297)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Asmodeus/AreaAtaque" unique_id=822880777]
+position = Vector2(1.5, -3.5)
+shape = SubResource("RectangleShape2D_qlcm3")
+script = ExtResource("5_egsm3")

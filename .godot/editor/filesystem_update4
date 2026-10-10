@@ -6,3 +6,5 @@ res://mundo.gd
 res://asmodeus.gd
 res://ui/mundo.tscn
 res://ui/mundo.gd
+res://ui/collision_shape_2d.gd
+res://ui/asmodeus.tscn

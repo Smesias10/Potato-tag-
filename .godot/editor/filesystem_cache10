@@ -1,20 +1,27 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791625663
+::res://::1791627366
 icon.svg::CompressedTexture2D::4417448458953593025::1791602870::1791602880::1::::<><><>0<>0<>59290b250e9293f9084d1b317d2dc63f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1791605777::0::1::::<><><>0<>0<><>::
 mundo.gd::GDScript::8799153627891899647::1791625663::0::1::::<>Node2D<><>0<>0<><>::
-::res://assets/::1791626483
+asmodeus.gd::GDScript::137068644909952286::1791627366::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://assets/::1791629120
 Asmodeus.jpg::CompressedTexture2D::2883368040335474499::1791626483::1791626600::1::::<><><>0<>0<>33f2550166c3c1b5f88c9b4a202e9d36<>res://.godot/imported/Asmodeus.jpg-40b0c35438a42ccd31d64026e0d90aaa.ctex::
+ATTACK 1.png::CompressedTexture2D::8825125418375635818::1791629120::1791629120::1::::<><><>0<>0<>2a70d7050ccea77586810d4bd3994854<>res://.godot/imported/ATTACK 1.png-4e089b8d79734888e9e602d398e3d052.ctex::
 Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg::CompressedTexture2D::5359043548176074189::1791617171::1791617172::1::::<><><>0<>0<>45ba23a8d694de3bc78e8006120c15f1<>res://.godot/imported/Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg-3cc7d019b23d8a8845b519e3c10eecbc.ctex::
 Gemini_Generated_Image_vwh0vcvwh0vcvwh0.jpg::CompressedTexture2D::6300921461414979673::1791620594::1791620595::1::::<><><>0<>0<>3245bdb9e9090508dbd564f998246345<>res://.godot/imported/Gemini_Generated_Image_vwh0vcvwh0vcvwh0.jpg-72631a630833664307bbb09b8d6d5de6.ctex::
 Gemini_Generated_Image_zgx53hzgx53hzgx5.jpg::CompressedTexture2D::4767218608608405345::1791619733::1791619830::1::::<><><>0<>0<>1b11ebe486fcd2be01e8bc5a3e708003<>res://.godot/imported/Gemini_Generated_Image_zgx53hzgx53hzgx5.jpg-28f0b231444e1ab58bbeb70e2044302e.ctex::
+HURT.png::CompressedTexture2D::1467156039127922620::1791629120::1791629120::1::::<><><>0<>0<>d5d17727e3a71c0389ed96564535f85e<>res://.godot/imported/HURT.png-19dc0903749fe0502632893520e57a8a.ctex::
+IDLE.png::CompressedTexture2D::8263576774491058788::1791629120::1791629120::1::::<><><>0<>0<>a913eb32dc29c56217f967b2624d05c9<>res://.godot/imported/IDLE.png-a9e3f04df502e1f844ae3d5a29f8fc62.ctex::
 images (1).jpg::CompressedTexture2D::1297351496466625742::1791614633::1791614633::1::::<><><>0<>0<>c94e43676ff29a804348179f6ea75d07<>res://.godot/imported/images (1).jpg-fdbec0dd98ffbe5e56df6e5b658650c1.ctex::
+RUN.png::CompressedTexture2D::2176831174530914677::1791629120::1791629120::1::::<><><>0<>0<>e3e6d1a5c27cdf51eae4aa8756e70d84<>res://.godot/imported/RUN.png-044f9e47d2780bf316088bb86115233b.ctex::
 ::res://entidades/::1791607433
 ::res://niveles/::1791607416
-::res://ui/::1791625663
+::res://ui/::1791627617
 MainMenu.tscn::PackedScene::3869444108446407997::1791622398::0::1::::<><><>0<>0<><>::uid://bsrouceu36gix::::res://ui/MainMenu.gdshader<>uid://cil7wt5tec8p2::::res://assets/Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg<>uid://cv1hix2vrh0vd::::res://assets/Gemini_Generated_Image_vwh0vcvwh0vcvwh0.jpg
 MainMenu.gdshader::Shader::3685800156946798071::1791622398::0::1::::<><><>0<>0<><>::
 HUD.tscn::PackedScene::3875392872287064779::1791623860::0::1::::<><><>0<>0<><>::uid://cwvwth8kssu5k::::res://ui/hud.gd
 hud.gd::GDScript::6361717983304361734::1791623746::0::1::::<>Control<><>0<>0<><>::
 node_2d.tscn::PackedScene::7765794770187615912::1791623764::0::1::::<><><>0<>0<><>::
-mundo.tscn::PackedScene::589250269691153928::1791625663::0::1::::<><><>0<>0<><>::uid://dxmm1lr8mmfkx::::res://mundo.gd<>uid://b363y3yjw3vth::::res://icon.svg<>uid://bvhjfiqynyei2::::res://ui/HUD.tscn
+mundo.tscn::PackedScene::589250269691153928::1791627617::0::1::::<><><>0<>0<><>::uid://bafvucrr0saoo::::res://ui/mundo.gd<>uid://b363y3yjw3vth::::res://icon.svg<>uid://bvhjfiqynyei2::::res://ui/HUD.tscn<>uid://deqrkcaav3bci::::res://ui/asmodeus.tscn
+asmodeus.tscn::PackedScene::7474097621588333056::1791627366::0::1::::<><><>0<>0<><>::uid://b7nrav3t5e6q::::res://asmodeus.gd
+mundo.gd::GDScript::2398053477304487530::1791627604::0::1::::<>Node2D<><>0<>0<><>::
