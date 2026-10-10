@@ -1,11 +1,13 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791607433
-icon.svg::CompressedTexture2D::4417448458953593025::1791602870::1791602880::1::::<><><>0<>0<>59290b250e9293f9084d1b317d2dc63f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1791605777::0::1::::<><><>0<>0<><>::
-::res://assets/::1791617171
-Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg::CompressedTexture2D::5359043548176074189::1791617171::1791617172::1::::<><><>0<>0<>45ba23a8d694de3bc78e8006120c15f1<>res://.godot/imported/Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg-3cc7d019b23d8a8845b519e3c10eecbc.ctex::
-images (1).jpg::CompressedTexture2D::1297351496466625742::1791614633::1791614633::1::::<><><>0<>0<>c94e43676ff29a804348179f6ea75d07<>res://.godot/imported/images (1).jpg-fdbec0dd98ffbe5e56df6e5b658650c1.ctex::
-::res://entidades/::1791607433
-::res://niveles/::1791607416
-::res://ui/::1791612113
-MainMenu.tscn::PackedScene::3869444108446407997::1791612113::0::1::::<><><>0<>0<><>::
+::res://::1791620296
+icon.svg::CompressedTexture2D::4417448458953593025::1791606663::1791606663::1::::<><><>0<>0<>59290b250e9293f9084d1b317d2dc63f<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1791620044::0::1::::<><><>0<>0<><>::
+::res://assets/::1791619284
+Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg::CompressedTexture2D::5359043548176074189::1791619268::1791619271::1::::<><><>0<>0<>45ba23a8d694de3bc78e8006120c15f1<>res://.godot/imported/Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg-3cc7d019b23d8a8845b519e3c10eecbc.ctex::
+images (1).jpg::CompressedTexture2D::1297351496466625742::1791618917::1791618917::1::::<><><>0<>0<>c94e43676ff29a804348179f6ea75d07<>res://.godot/imported/images (1).jpg-fdbec0dd98ffbe5e56df6e5b658650c1.ctex::
+::res://scenes/::1791620226
+::res://scenes/Main/::1791620229
+GameManager.gd::GDScript::843716565286103497::1791620217::0::1::::<>Node<><>0<>0<><>::
+Main.tscn::PackedScene::6117014810605522436::1791620105::0::1::::<><><>0<>0<><>::
+::res://scenes/player/::1791620080
+player.tscn::PackedScene::1778601157329644221::1791620044::0::1::::<><><>0<>0<><>::
