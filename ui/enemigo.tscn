@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dxoxook67dkno"]
+
+[ext_resource type="Script" uid="uid://coha0egqobh4c" path="res://enemigo.gd" id="1_d4btc"]
+
+[sub_resource type="Gradient" id="Gradient_r445e"]
+offsets = PackedFloat32Array(0, 0.9735577, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.52156866, 0, 0.52156866, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_m8hc8"]
+gradient = SubResource("Gradient_r445e")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qlcm3"]
+size = Vector2(90, 85)
+
+[node name="Enemigo" type="CharacterBody2D" unique_id=946611350]
+position = Vector2(543, 241)
+script = ExtResource("1_d4btc")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1170083590]
+texture = SubResource("GradientTexture2D_m8hc8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1180096240]
+position = Vector2(1, -0.5)
+shape = SubResource("RectangleShape2D_qlcm3")

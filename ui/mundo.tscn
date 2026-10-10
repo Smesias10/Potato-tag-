@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://bvhjfiqynyei2" path="res://ui/HUD.tscn" id="3_egsm3"]
 [ext_resource type="PackedScene" uid="uid://deqrkcaav3bci" path="res://ui/asmodeus.tscn" id="4_55uo5"]
 [ext_resource type="Script" uid="uid://dpaoxajps0bhh" path="res://ui/collision_shape_2d.gd" id="5_egsm3"]
+[ext_resource type="PackedScene" uid="uid://dxoxook67dkno" path="res://ui/enemigo.tscn" id="6_54f26"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_54f26"]
 texture = ExtResource("2_55uo5")
@@ -104,3 +105,6 @@ position = Vector2(566, 297)
 position = Vector2(1.5, -3.5)
 shape = SubResource("RectangleShape2D_qlcm3")
 script = ExtResource("5_egsm3")
+
+[node name="Enemigo" parent="." unique_id=946611350 instance=ExtResource("6_54f26")]
+position = Vector2(784, 466)
