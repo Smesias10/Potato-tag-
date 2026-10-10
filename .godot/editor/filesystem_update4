@@ -1,1 +1,4 @@
 res://scenes/main/GameManager.tscn
+res://scripts/GameManager.gd
+res://scripts/WaveManager.gd
+res://scenes/main/Main.tscn

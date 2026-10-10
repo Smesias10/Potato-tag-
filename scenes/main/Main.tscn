@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://dwj08xx78ajxi"]
 
 [ext_resource type="Script" uid="uid://d2ps72d74k4ia" path="res://scripts/GameManager.gd" id="1_nha0i"]
-[ext_resource type="PackedScene" uid="uid://cnspx5ckgahi8" path="res://scenes/rooms/Room1.tscn" id="2_gyg6b"]
-[ext_resource type="PackedScene" uid="uid://bekuo23mxnnnu" path="res://scenes/player/player.tscn" id="2_q24mn"]
+[ext_resource type="PackedScene" uid="uid://cnspx5ckgahi8" path="res://scenes/rooms/Room.tscn" id="2_gyg6b"]
+[ext_resource type="PackedScene" uid="uid://byjhagnp1hghf" path="res://scenes/player/Player.tscn" id="2_q24mn"]
 
 [node name="Main" type="Node2D" unique_id=1087860105]
 
