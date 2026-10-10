@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 Node2D
 Node
 Camera2D
 CollisionShape2D
+=======
+CollisionShape2D
+Area2D
+Camera2D
+Sprite2D
+CharacterBody2D
+TileMap
+Label
+CanvasLayer
+ProgressBar
+>>>>>>> 156e9cbeb129fceb4dd31f23652c9caeca773812
 TextureRect
 Button
 VBoxContainer

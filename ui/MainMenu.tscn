@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://bvengdcwhkhir"]
+
+[ext_resource type="Shader" uid="uid://bsrouceu36gix" path="res://ui/MainMenu.gdshader" id="1_nmrkx"]
+[ext_resource type="Texture2D" uid="uid://cil7wt5tec8p2" path="res://assets/Gemini_Generated_Image_s1eawrs1eawrs1ea.jpg" id="2_8v85u"]
+[ext_resource type="Texture2D" uid="uid://cv1hix2vrh0vd" path="res://assets/Gemini_Generated_Image_vwh0vcvwh0vcvwh0.jpg" id="3_x262b"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qlcm3"]
+shader = ExtResource("1_nmrkx")
+shader_parameter/velocidad = Vector2(0.15, 0)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q3p3g"]
+texture = ExtResource("3_x262b")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lgus4"]
+texture = ExtResource("3_x262b")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dk4jj"]
+texture = ExtResource("3_x262b")
+
+[node name="MainMenu" type="Control" unique_id=256509397]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1762323569]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.13464907, 0.1346491, 0.13464904, 1)
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect" unique_id=16189538]
+material = SubResource("ShaderMaterial_qlcm3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -233.0
+offset_right = 233.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_8v85u")
+stretch_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect" unique_id=804924440]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.25
+offset_top = -120.25
+offset_right = 168.25
+offset_bottom = 120.25
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 13
+
+[node name="Jugar" type="Button" parent="ColorRect/VBoxContainer" unique_id=1861722159]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal_mirrored = SubResource("StyleBoxTexture_q3p3g")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_lgus4")
+theme_override_styles/hover = SubResource("StyleBoxTexture_dk4jj")
+text = "JUGAR"
+
+[node name="Opciones" type="Button" parent="ColorRect/VBoxContainer" unique_id=1505271802]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "OPCIONES"
+
+[node name="Salir" type="Button" parent="ColorRect/VBoxContainer" unique_id=2005840349]
+layout_mode = 2
+theme_override_constants/h_separation = 50
+theme_override_font_sizes/font_size = 50
+text = "SALIR"
